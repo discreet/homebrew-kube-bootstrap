@@ -2,11 +2,11 @@
 class KubeBootstrap < Formula
   desc "Bootstrap your laptop for Kubernetes"
   homepage ""
-  version "0.0.2"
+  version "0.0.3"
 
   if OS.mac?
-    url "https://github.com/discreet/kube-bootstrap/releases/download/v0.0.2/kube-bootstrap-v0.0.2-darwin-amd64.tar.gz"
-    sha256 "e27397dc898e19340e463bd7d68f45c545dded2e69b93813afdd674171734f27"
+    url "https://github.com/discreet/kube-bootstrap/releases/download/v0.0.3/kube-bootstrap-v0.0.3-darwin-amd64.tar.gz"
+    sha256 "790d7399b8d06327087121dc01ef7a93378537cea0f3ed512b2832774e995e91"
   elsif OS.linux?
   end
 
